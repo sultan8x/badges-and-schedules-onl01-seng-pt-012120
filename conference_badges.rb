@@ -33,9 +33,7 @@ def printer(attendees)
   assign_rooms(attendees).collect do |room|
     puts room
 
-  attendees.each.with_index(1) do |person, index|
-    p "Hello, #{person}! You'll be assigned to room #{index}!"
-
+  
   end
 
 end
