@@ -33,7 +33,7 @@ def printer(attendees)
   assign_rooms(attendees).collect do |room|
     puts room
 
-  
+
   end
 
 end
