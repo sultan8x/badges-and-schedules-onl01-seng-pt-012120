@@ -1,4 +1,3 @@
-require 'pry'
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -16,7 +15,7 @@ end
 
 
 def assign_rooms(attendees)
-<<<<<<< HEAD
+
  assigned_rooms = []
   attendees.each.with_index(1) do |person, index|
      assigned_rooms << "Hello, #{person}! You'll be assigned to room #{index}!"
@@ -33,11 +32,8 @@ def printer(attendees)
   end
   assign_rooms(attendees).collect do |room|
     puts room
-=======
-  attendees.each.with_index(1) do |person, index|
-    p "Hello, #{person}! You'll be assigned to room #{index}!"
->>>>>>> 4bad843eb09b6a4b235e48b868020d050186f268
+
+
   end
 
 end
-
